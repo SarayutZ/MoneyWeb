@@ -4,6 +4,8 @@ import CouresFree from '../components/CouresFree.vue'
 import knowledgeFree from '../components/knowledgeFree.vue'
 import CouresSET from '../components/CouresSET.vue'
 import Books from "@/components/Books.vue";
+import youtube from "@/components/youtube.vue";
+import another from "@/components/another.vue"
 const routes = [
   {
     path: "/",
@@ -29,6 +31,16 @@ const routes = [
     path: "/Books",
     name: "Books",
     component: Books,
+  },
+  {
+    path: "/youtube",
+    name: "youtube",
+    component: youtube,
+  },
+  {
+    path: "/another",
+    name: "another",
+    component: another,
   },
 
 ];

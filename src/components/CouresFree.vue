@@ -19,7 +19,7 @@
       <h5 class="card-title">จาก Youtube ฟรี !!</h5>
       <p class="card-text">รวบรวม ความรู้ทางการเงิน และ ช่องที่ให้ความรู้ทาการเงิน </p><br/>
       <p class="card-text"><small class="text-body-secondary">Youtube</small></p>
-      <router-link to=""><button class="btn btn-dark">ดูเพิ่มเติม</button></router-link>
+      <router-link to="/youtube"><button class="btn btn-dark">ดูเพิ่มเติม</button></router-link>
     </div>
   </div>
   <div class="card">
@@ -28,7 +28,7 @@
       <h5 class="card-title">แหล่งความรู้อื่นๆ</h5>
       <p class="card-text">รวบรวม แหล่ง ความรู้ทางการเงิน อื่นๆ เช่น เพจ facbook และ แหล่ง เรียนสอนการเงินอื่นๆ ฟรี</p>
       <p class="card-text"><small class="text-body-secondary">อื่นๆ</small></p>
-      <router-link to=""><button class="btn btn-dark">ดูเพิ่มเติม</button></router-link>
+      <router-link to="/another"><button class="btn btn-dark">ดูเพิ่มเติม</button></router-link>
     </div>
   </div>
 </div>
