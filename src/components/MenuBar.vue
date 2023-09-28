@@ -1,4 +1,7 @@
 <template>
+
+<!--  หน้านี้คือ component ที่ แสดง ตัว เมนู บาร์ -->
+
   <div v-if="showContent" class="container d-flex justify-content-between">
   <a class="navbar-brand" href="#">
   <router-link to="/"><img src="../assets/logo2.png" width="60" height="60" /></router-link>  
@@ -10,7 +13,7 @@
     <router-link  style="text-decoration: none; color: inherit;" to="/Coures"><h5 class="text-menu mx-3">คอร์สฟรี</h5></router-link>
     <router-link  style="text-decoration: none; color: inherit;"  to="/Books"><h5 class="text-menu mx-3">หนังสือการลงทุน</h5></router-link>
     <h5 class="text-menu mx-3">ติดต่อเรา</h5>
-    <font-awesome-icon class="text-menuicon mx-3 " :icon="['fas', 'bars']" />
+    <!-- <font-awesome-icon class="text-menuicon mx-3 " :icon="['fas', 'bars']" /> -->
   </div>
 </div>
 </template>
@@ -26,7 +29,7 @@ export default {
     // ตั้งค่า showContent เป็น true เมื่อคอนเทนต์เริ่มแสดง
     setTimeout(() => {
       this.showContent = true;
-    }, 200); // เปลี่ยนเวลาตามที่คุณต้องการ
+    }, 200); // ตรงนี้คือเวลาที่จะให้แสดง 
   },
 };
 </script>
@@ -86,7 +89,7 @@ export default {
 .container {
   margin-top: 10px;
   font-family: 'Itim', cursive;
-  animation: fadeIn 1s ease-in-out; /* เพิ่มอนิเมชัน fadeIn ด้วย animation property */
+  animation: fadeIn 1s ease-in-out; /* เพิ่มอนิเมชัน  */
 }
 
 </style>

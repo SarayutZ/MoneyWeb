@@ -1,8 +1,9 @@
 <template>
-<MenuBar/>
+
+<MenuBar/> <!-- ตรงนี้ คือ component จาก MenuBar.vue -->
 
 
-
+<!-- กล่อง แรก ส่วนของ คอร์ส ตลาดหลักทรัพย์ -->
 <div class="card-group mt-5">
   <div class="card">
     <img src="https://op.mahidol.ac.th/sa/wp-content/uploads/2018/09/Banner_SET_E-Learning_1040x1040px.png" class="card-img-top" alt="">
@@ -13,6 +14,8 @@
       <router-link to="/CouresSet"><button class="btn btn-dark">ดูเพิ่มเติม</button></router-link>
     </div>
   </div>
+
+  <!-- กล่อง สอง ส่วนของ คอร์ส จาก Youtube -->
   <div class="card">
     <img src="https://droidsans.com/wp-content/uploads/2019/06/youtube-logo.jpg" class="card-img-top" alt="">
     <div class="card-body">
@@ -22,6 +25,8 @@
       <router-link to="/youtube"><button class="btn btn-dark">ดูเพิ่มเติม</button></router-link>
     </div>
   </div>
+
+  <!-- กล่องที่ สาม ส่วนของ คอร์ส จากที่อื่นๆ -->
   <div class="card">
     <img src="https://media.istockphoto.com/id/1279138405/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%9C%E0%B8%A5-3-%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%B4-%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B9%8D%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%A8%E0%B8%A3%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%9B-%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%98%E0%B8%B8%E0%B8%A3.jpg?s=2048x2048&w=is&k=20&c=FSq376dHIiwaL9jl8cZH9yo3k6ccMy6MSG3f4-ckX-Y=" class="card-img-top" alt="">
     <div class="card-body">

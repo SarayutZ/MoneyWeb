@@ -1,6 +1,10 @@
 <template>
-  <MenuBar />
 
+  <!-- หน้านี้คือ หน้า แสดง คอร์ส จาก SET ทั้งหมด  -->
+
+  <MenuBar /><!-- ตรงนี้ คือ component จาก MenuBar.vue -->
+
+    <!-- ส่วนนี้ ส่วน ช่อง ค้นหา -->
   <div class="input-group flex-nowrap w-25">
     <input
       type="text"
@@ -12,7 +16,8 @@
     />
   </div>
 
-  <div class="courseSet">
+  <!-- ส้วนนี้คือ ส่วนที่ ใช้ แสดง คอร์ส set ทั้งมหด -->
+  <div class="Couresset">
     <div class="row">
       <div class="col" v-for="(card, index) in filteredCourses" :key="index">
         <div class="card">
@@ -20,7 +25,7 @@
             <h5 class="card-title">{{ card.name }}</h5>
             <img :src="card.imagesCourse" alt="" srcset="" />
             <p class="card-text">{{ card.CourseForm }}</p>
-            <a href="#" class="btn btn-primary">ดูเพิ่มเติม</a>
+            <a :href="card.Learnlink"  target="_blank" class="btn btn-primary">ดูเพิ่มเติม</a>
           </div>
         </div>
       </div>
@@ -30,7 +35,7 @@
 
 <script>
 import { mapGetters } from "vuex";
-import MenuBar from "./MenuBar.vue";
+import MenuBar from "../MenuBar.vue";
 
 export default {
   data() {
@@ -38,8 +43,17 @@ export default {
       searchText: "",
     };
   },
+
   computed: {
+          // เป็นส่วน  จาก Vuex เพื่อนำเข้าค่า มาใช้ได้
+      // สามารถเข้าถึง CourseL จาก ตัว store index.js ที่เราเก็บข้อมูล คอร์สต่างๆไว้
     ...mapGetters(["CourseL"]),
+
+      // ส่วนนี้ คือ ส่วนที่ ใช้ ค้นหาหนัง สือ เวลา เรา พิมพ์ ค้นหา ใน ช่อง input search
+      // โดยเปรียบเทียบชื่อของหนังสือ (book.name) กับค่าใน searchText หรือ ค่าที่เรา พิมพ์ ในช่องค้นหา. 
+      // ใช้ toLowerCase() ทำให้ ค้นหาเป็นตัวพิมพ์เล็กหรือใหญ่ก็ได้
+      //  และ includes() ใช้ในการตรวจสอบว่าชื่อหนังสือมีส่วนที่ตรงกับ searchText หรือป่าว
+
     filteredCourses() {
       return this.CourseL.filter((course) =>
         course.name.toLowerCase().includes(this.searchText.toLowerCase())
@@ -55,7 +69,7 @@ export default {
 margin-left: 500px;
 
 }
-.courseSet {
+.Couresset {
   padding: 20px;
 }
 

@@ -2,9 +2,9 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    selectedBook: null,
-    sizeW: 150,
-    sizeH: 120,
+
+
+        // อันนี้คือส่วนของ เก็บข้อมูล หนังสือ การเงิน การลงทุน ทั้งหมด 
     shopBooks: [
       {
         name: "พ่อรวยสอนลูก",
@@ -67,19 +67,22 @@ export default createStore({
   imagesBooks:"https://images-se-ed.com/ws/Storage/Originals/978974/401/9789744017178L.jpg?h=2199bf58e5a55f5bd309f3007c464dd9",
   Shoplink:"https://m.se-ed.com/Detail/%E0%B8%84%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B5%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B9%89%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B9%88%E0%B8%B2-The-Intelligent-Investor-(%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)/9789744017178",
 },
-
-
-
-
-
-
-
-
-
-
-
+{
+  name:"",
+  imagesBooks:"",
+  Shoplink:""
+},
+{
+  name:"",
+  imagesBooks:"",
+  Shoplink:""
+},
+// เพิ่มข้อมูล  ของ หนังสือ ได้เลื่อยๆ 
 
     ],
+    
+
+    // อันนี้คือส่วนของ เก็บข้อมูล คอร์ส จาก ตลาด หลักทรัพย์ SET ทั้งหมด 
     CourseL: [
       {
         name: "มือใหม่หัดลงทุน Digital Asset",
@@ -186,17 +189,72 @@ export default createStore({
         Learnlink: "https://elearning.set.or.th/SETGroup/courses/30/info",
         CourseForm:"ตลาดหลักทรัพทย์"
       },
+      {
+        name:"",
+        imagesCourse:"",
+        Learnlink:"",
+        CourseForm:""
+      },
+      {
+        name:"",
+        imagesCourse:"",
+        Learnlink:"",
+        CourseForm:""
+      },
+      // เพิ่มข้อมูล  ของ คอร์ส ตลาดหลักทรัพทย์  ได้เลื่อยๆ 
+
     ],
+    
+// อันนี้คือส่วนของ เก็บข้อมูล คอร์ส จาก youtube 
+CourseYT:[
+  {
+    name:"มือใหม่จัดการเงิน MONEY STARTER",
+    Video:"https://www.youtube.com/embed/videoseries?si=yGaqYPZlSJm7_m8r&amp;list=PLb60bms3dmUVqzuK2BzXOHQ_3BlB2xwRK",
+    LinkYT:"https://www.youtube.com/playlist?list=PLb60bms3dmUVqzuK2BzXOHQ_3BlB2xwRK",
   },
+  {
+    name:"",
+    Video:"",
+    LinkYT:"",
+  },
+  {
+    name:"",
+    Video:"",
+    LinkYT:"",
+  },
+],
+
+// อันนี้คือส่วนของ เก็บข้อมูล แหล่งความรู้อื่นๆ 
+CourseAT:[
+  {
+    name:"ข้าราชการลงทุน",
+    imagesAT:"https://scontent.fbkk14-1.fna.fbcdn.net/v/t39.30808-6/292495812_387361293569091_3725921563780392478_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeEYIDg35_yvbVGQhXK0E-_5ATGGPfxJe78BMYY9_El7v7JIncjf3uL182xk4b07_qE5IhSGjOl6N22AlYV0owuk&_nc_ohc=poD7xsPLBPkAX_siZtD&_nc_ht=scontent.fbkk14-1.fna&oh=00_AfA3NK01Wg_TbFt9E24x00w9UHBRDAas8ake3QuQ3ylBOw&oe=6519F177",
+    LinkAT:"https://www.facebook.com/karnlongtoon",
+  },
+  {
+    name:"",
+    imagesAT:"",
+    LinkAT:"",
+  },
+  {
+    name:"",
+    imagesAT:"",
+    LinkAT:"",
+  },
+],
+
+
+
+  },
+  // ใน Vuex, getters ใช้ในการเข้าถึงข้อมูลจากสถานะ (state) นำมาใช้ในคอมโพเนนต์ Vue 
+  // หรือส่วนอื่น ๆ  
   getters: {
     CourseL: (state) => state.CourseL,
-    shopBooks:(state)=>state.shopBooks
+    shopBooks:(state)=>state.shopBooks,
+    CourseYT:(state)=>state.CourseYT,
+    CourseAT:(state)=>state.CourseAT,
   },
-  mutations: {
-    setSelectedBook(state, bookData) {
-      state.selectedBook = bookData;
-    },
-  },
+
   actions: {},
   modules: {},
 });
