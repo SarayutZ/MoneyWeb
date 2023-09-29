@@ -213,15 +213,75 @@ CourseYT:[
     LinkYT:"https://www.youtube.com/playlist?list=PLb60bms3dmUVqzuK2BzXOHQ_3BlB2xwRK",
   },
   {
-    name:"",
-    Video:"",
-    LinkYT:"",
+    name:"อิสรภาพทางการเงิน",
+    Video:"https://www.youtube.com/embed/WpVXK4pZRK0?si=rjrP0_nJWpeS3WS_",
+    LinkYT:"https://www.youtube.com/playlist?list=PLLkFulmhZjlpzX4A8AqYgp547VNHuiBBK",
   },
   {
-    name:"",
-    Video:"",
-    LinkYT:"",
+    name:"ไดอารี่นักวางแผนการเงิน",
+    Video:"https://www.youtube.com/embed/ca0LXWQL5pQ?si=MgayjlyXzi5motLU",
+    LinkYT:"https://www.youtube.com/playlist?list=PLLURr74fU78bNRaVo3XIkr5pdK3s5rQ1h",
   },
+  {
+    name:"ความรู้การเงินการลงทุน",
+    Video:"https://www.youtube.com/embed/7QXRFf3J37E?si=rZvhDplMc19ZVQ9c",
+    LinkYT:"https://www.youtube.com/playlist?list=PLLURr74fU78YN0P6n76HcFFK-SWjROqlY",
+  },
+  {
+    name:"การเงินธุรกิจและกฎหมายธุรกิจ",
+    Video:"https://www.youtube.com/embed/fsy-gypYJ1Y?si=CmUVA--vQMHE7f03",
+    LinkYT:"https://www.youtube.com/playlist?list=PLeCU-LBTVq24loC5LaMqdwayzXVRuusSh",
+  },
+  {
+    name:"เศรษฐศาสตร์การเงินและการคลัง",
+    Video:"https://www.youtube.com/embed/MyhSI-ZT09Y?si=fkLwLli8SmYk6lAD",
+    LinkYT:"https://www.youtube.com/playlist?list=PLeCU-LBTVq269v5CNr3EKCjlllfpQU9XP",
+  },
+  {
+    name:"ความรู้การเงิน 101",
+    Video:"https://www.youtube.com/embed/NIu4t_uFXMY?si=X3GXX1FHXI_8pMSy",
+    LinkYT:"https://www.youtube.com/playlist?list=PLtvh8VexC2Pxhp58Fi5q1SRDnlynjmQ2S",
+  },
+  {
+    name:"การเงินสำหรับมือใหม่ ",
+    Video:"https://www.youtube.com/embed/7wPLpcp4SlI?si=dsallGl5bxkbSbZg",
+    LinkYT:"https://www.youtube.com/playlist?list=PLA75pd0Wv5RzCqSxN8K6hB1nJxUnhCHyW",
+  },
+  {
+    name:"เส้นทางนักการเงิน Financial Professionals ในตลาดทุน",
+    Video:"https://www.youtube.com/embed/PsSmt6SOF_Q?si=SuJZmFgzEqihuqK9",
+    LinkYT:"https://www.youtube.com/playlist?list=PLQtlXHTArVHsbjFA49FfZFVEtOkMqX0hg",
+  },
+  {
+    name:"อ่านงบการเงิน ตั้งแต่ มือใหม่ จนถึง ตัวอย่างอ่านงบจริง",
+    Video:"https://www.youtube.com/embed/6cLzSKG-2ts?si=mxxSiyRxaIHiz-WA",
+    LinkYT:"https://www.youtube.com/playlist?list=PLlPA8CImu2yr9YGWdDLq4TsEK4vOTNXni",
+  },
+  {
+    name:"FinD การเงินดี ชีวิตมีสุข",
+    Video:"https://www.youtube.com/embed/5TWyh999Iy4?si=R5QKW9zO_0qJz6eK",
+    LinkYT:"https://www.youtube.com/playlist?list=PLRTwSfMECJw_qzD7tcnOgqzAAuXSIFsFN",
+  },
+  {
+    name:"การเงินส่วนบุคคลและการภาษีอากร",
+    Video:"https://www.youtube.com/embed/XlGB-79zeUU?si=zh0S3_5zgnxd3VSn",
+    LinkYT:"https://www.youtube.com/playlist?list=PLeCU-LBTVq27R3CfHeyuSOOppEtb4MNXz",
+  },
+  {
+    name:"หลักสูตรการวางแผนทางการเงิน CFP",
+    Video:"https://www.youtube.com/embed/XkR_Ff7HBGw?si=8vJy6KviI5zIWFeU",
+    LinkYT:"https://www.youtube.com/playlist?list=PLdhZ853PBa5rAEwDF-m0XHO50SuRY9e74",
+  },
+  {
+    name:"นิทานการเงิน",
+    Video:"https://www.youtube.com/embed/E_yiZytnCSY?si=X09TVdZP2solU24m",
+    LinkYT:"https://www.youtube.com/playlist?list=PLCRib6swqF85EUPnqu_-VCfI94owebqJB",
+  },
+  {
+    name:"คู่มือการใช้โปรแกรมวางแผนการเงิน Assurewealth Co.,Ltd.",
+    Video:"https://www.youtube.com/embed/Lp7LkjOM72o?si=WLjCKqmzNdgk9K7X",
+    LinkYT:"https://www.youtube.com/playlist?list=PLnR9frliPYXeeCzhWruPprK3GLWmfdo-0",
+  }
 ],
 
 // อันนี้คือส่วนของ เก็บข้อมูล แหล่งความรู้อื่นๆ 
